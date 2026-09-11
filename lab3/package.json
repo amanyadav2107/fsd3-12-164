@@ -1,19 +1,20 @@
 {
   "name": "lab3",
   "version": "1.0.0",
-  "description": "It is buile in Node.js",
+  "description": "It is built in Node.js Module which allows developers to create web server and web client without installing any external package. one of the most important module in Node.js, originally designed for building scalable network application and web servers.",
   "main": "prg1.js",
-  "type": "module",
   "scripts": {
+    "start": "node prg3.js",
     "dev": "nodemon prg6.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.3.8"
-  },
+  "type": "module",
   "devDependencies": {
     "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
   }
 }
