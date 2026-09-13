@@ -1,12 +1,12 @@
-import http from 'http';
+import http from "http";
 
-const server = http.createServer((req,res) => {
-  res.writeHead(200, {'Content-Type': 'text/html'});  
+const server = http.createServer((req, res) => {
 
-    res.end("<h2>Hello client</h2>");
-    console.log("server hit");
+  res.writeHead(200, { "content-type": "text/html" });
+  
+  res.end("<h2>Hello Client</h2>");
+  
+  console.log("Server hit");
 });
 
-
-server.listen(4444, () => console.log("Server is running ..."));  
-   
+server.listen(4444, () => console.log("Server is running..."));
