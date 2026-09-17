@@ -28,3 +28,6 @@ script{
 
 If App crased occur----then address already use ::: 3000 --start vs code once again 
 ### Get
+
+### run "npm i"to include all the required contents
+- then use npm run dev
