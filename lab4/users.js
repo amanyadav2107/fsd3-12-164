@@ -7,3 +7,9 @@ let users =[
 let nextId =3;
 
 export const getUsers =() => users; //export is used to import somewhere else
+
+export const addUser =(user)=>{
+    user.id =nextId++;
+    users.push(user);
+    return user;
+};
