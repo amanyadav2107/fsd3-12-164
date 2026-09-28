@@ -31,3 +31,13 @@ If App crased occur----then address already use ::: 3000 --start vs code once ag
 
 ### run "npm i"to include all the required contents
 - then use npm run dev
+
+###### Request Type
+1. Get- Get all , get by id 
+Get: /api/products (it shows all products at once)
+Get: /api/products/101(It shows only one product whose id is 101)
+2. Post- /api/products and data will be shared byu eco api body section
+3. Put/Patch(patch means Little but change/update)(Put means complete change like more than 50% ): /api/products/201
+4. Delete: /api/products/101
+
+#### Exported function can be imported by other programm.
